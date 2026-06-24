@@ -2,7 +2,7 @@
 
 ## Author
 - **Name:** Nancy Ndungu
-- **GitHub:** (https://github.com/Riara)
+- **GitHub:** (https://github.com/Riara470)
 - **Date:** june 24, 2026
 
 ## Project Description
