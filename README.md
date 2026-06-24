@@ -33,10 +33,6 @@ I learned why accessibility matters for real users. Screen readers rely on `alt`
 **Solution**: Added `<meta name="description">` tag in `<head>` with a 150-char summary of the page.
 
 **Problem**: Link text "favorite website" was not descriptive enough for accessibility.  
-**Solution**: Changed to "Mozilla Developer Network documentation" so screen reader users know where it goes.
+**Solution**: Changed to "Mozilla Developer Network documentation" so screen reader users know where it goes
 
-## Screenshots (optional)
-![Lighthouse Accessibility Score 98/100](screenshots/lighthouse-score.png)
 
-## Live Demo (if deployed)
-[Add link here if you deploy to GitHub Pages / Netlify]
