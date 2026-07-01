@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Elements Showcase</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 2rem;
+      background: #f4f7fb;
+      color: #223;
+    }
+    main {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+    h1, h2 {
+      color: #2b4c7e;
+    }
+    code {
+      background: #eef2ff;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+    }
+    blockquote {
+      border-left: 4px solid #2b4c7e;
+      padding-left: 1rem;
+      color: #556;
+    }
+    details {
+      margin-top: 1rem;
+      background: #f8fafc;
+      padding: 0.8rem 1rem;
+      border-radius: 8px;
+    }
+    .site-header {
+      max-width: 800px;
+      margin: 0 auto 1.5rem;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #2b4c7e;
+      padding: 1rem 1.25rem;
+      border-radius: 12px;
+    }
+    .brand {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+    }
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .gallery-grid figure {
+      margin: 0;
+      background: #f8fafc;
+      padding: 0.75rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .gallery-grid img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    .gallery-grid figcaption {
+      margin-top: 0.5rem;
+      color: #556;
+      font-size: 0.95rem;
+    }
+    .blog-post {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .post-meta {
+      color: #556;
+      font-size: 0.95rem;
+      margin-top: -0.5rem;
+    }
+    .featured-image {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 0.5rem;
+    }
+    .related-posts {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .related-posts article {
+      background: #f8fafc;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a href="#" class="brand">My Site</a>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <article class="blog-post">
+      <h1>How to Build a Better Morning Routine</h1>
+      <p class="post-meta">Published on <time datetime="2026-06-30">June 30, 2026</time> by <strong>Alice Johnson</strong></p>
+
+      <img class="featured-image" src="https://via.placeholder.com/800x400?text=Featured+Blog+Image" alt="Morning routine blog feature" />
+
+      <p>A calm morning routine can transform the way your whole day feels. Small habits, done consistently, create focus, energy, and confidence before the day even begins.</p>
+
+      <h2>Start with a Simple Plan</h2>
+      <p>Begin by choosing just three priorities for the morning: hydrate, move your body, and review your top task. Keeping the routine simple makes it easier to stick with over time.</p>
+
+      <h2>Create a Peaceful Environment</h2>
+      <p>Your space matters. A tidy desk, a clear schedule, and a few calming touches can make your routine feel intentional rather than rushed.</p>
+
+      <h2>Keep the Momentum Going</h2>
+      <p>Once your morning routine feels natural, you can expand it gradually. The goal is not perfection but consistency and comfort.</p>
+
+      <section>
+        <h2>Related Posts</h2>
+        <div class="related-posts">
+          <article>
+            <h3>5 Tiny Habits That Change Your Day</h3>
+            <p>Learn how small actions can create lasting results.</p>
+          </article>
+          <article>
+            <h3>Staying Productive Without Burning Out</h3>
+            <p>A balanced approach to work and rest.</p>
+          </article>
+        </div>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
